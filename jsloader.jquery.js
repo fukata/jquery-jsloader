@@ -77,7 +77,7 @@ JsLoader.prototype._load_sync = function(head,src_list,options) {
                 };
                 s.onreadystatechange = function() {
                         if(this.initialized) return;
-                        if (this.readyState == 'complete') {
+                        if (this.readyState == 'complete' || this.readyState == 'loaded') {
                                 this.initialized = true;
                                 head.appendChild(loader.scripts[this.idx+1]);
                         }
