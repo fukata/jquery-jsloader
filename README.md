@@ -12,4 +12,4 @@
 
 ## Options
 * async: boolean
-	script that specifies whether to load asynchronously and synchronously.
+ * script that specifies whether to load asynchronously and synchronously.
