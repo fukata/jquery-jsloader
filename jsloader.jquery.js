@@ -1,6 +1,6 @@
 /*
 # JavaScript Loader jQuery plugin
-version: 1.1.0
+version: 1.2.0
 author: tatsuya.fukata
 mail: tatsuya.fukata@gmail.com
 site: http://fukata.org 
