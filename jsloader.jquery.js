@@ -38,6 +38,7 @@ $.jsloader.load('http://example.com/example.js', {async:false});
 # ChangeLog
 - v1.0.0 initial
 - v1.1.0 bug fixed: Synchronous mode, or more correctly 2 script can not load.
+- v1.2.0 bug fixed: Add loaded readyState.
 */
 
 ;(function($){
